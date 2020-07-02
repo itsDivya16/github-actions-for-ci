@@ -34,6 +34,7 @@ export default class Game {
 
   colWin () {
     let win = false
+    let something = ''
     for (let c = 0; c < 3; c++) {
       const col = this.board
       if (col[0][c] === null) { continue }
